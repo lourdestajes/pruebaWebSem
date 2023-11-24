@@ -1,7 +1,7 @@
 prefix :       <http://example.org/>
 prefix schema: <https://schema.org/>
 
-:alice schema:knows :bob .
-:bob   schema:knows :carol .
-:carol schema:knows :bob .
+:pepe schema:knows :pepa .
+:pepa   schema:knows :carol .
+:carol schema:knows :pepe .
 :carol schema:knows :alice .
