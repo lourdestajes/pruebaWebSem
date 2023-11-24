@@ -1,7 +1,7 @@
 prefix :       <http://example.org/>
-prefix x: <https://eschema.org/>
+prefix esquema: <https://eschema.org/>
 
-:pepe x:knows :pepa .
-:pepa   x:knows :carol .
-:carol x:knows :pepe .
-:carol x:knows :alice .
+:pepe esquema:knows :pepa .
+:pepa esquema:knows :carol .
+:carol esquema:knows :pepe .
+:carol esquema:knows :alice .
