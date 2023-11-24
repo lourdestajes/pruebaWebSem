@@ -1,7 +1,6 @@
 prefix :       <http://example.org/>
-prefix esquema: <https://eschema.org/>
+prefix esquema: <https://esquema.org/>
+prefix debepedia:    <http://debepedia.org/resource/>
 
-:pepe esquema:knows :pepa .
-:pepa esquema:knows :carol .
-:carol esquema:knows :pepe .
-:carol esquema:knows :alice .
+:bob   esquema:birthPlace debepedia:Oviedo .
+:carol esquema:birthPlace debepedia:Oviedo .
