@@ -1,5 +1,5 @@
 prefix :       <http://example.org/>
-prefix schema: <https://eschema.org/>
+prefix eschema: <https://eschema.org/>
 
 :pepe eschema:knows :pepa .
 :pepa   eschema:knows :carol .
