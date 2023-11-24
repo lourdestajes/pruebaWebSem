@@ -1,0 +1,7 @@
+prefix :       <http://example.org/>
+prefix schema: <https://eschema.org/>
+
+:pepe eschema:knows :pepa .
+:pepa   eschema:knows :carol .
+:carol eschema:knows :pepe .
+:carol eschema:knows :alice .
